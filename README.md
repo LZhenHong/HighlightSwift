@@ -4,7 +4,8 @@ A Swift syntax highlighting library powered by [highlight.js](https://highlightj
 
 [![Swift 5.10+](https://img.shields.io/badge/Swift-5.10+-orange.svg)](https://swift.org)
 [![Platforms](https://img.shields.io/badge/Platforms-iOS%2015+%20|%20macOS%2012+%20|%20tvOS%2015+%20|%20watchOS%208+-blue.svg)](https://developer.apple.com)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](LICENSE)
+[![Bundled Assets: See Notices](https://img.shields.io/badge/Bundled%20Assets-See%20Notices-blue.svg)](THIRD_PARTY_NOTICES.md)
 
 ## Features
 
@@ -213,6 +214,23 @@ swift test --filter PerformanceBenchmarks
 | watchOS  | 8.0            |
 | Swift    | 5.10           |
 
+## Third-Party Assets
+
+HighlightSwift bundles `highlight.js`, language grammars, and theme CSS as
+package resources. Those vendored assets keep their upstream notices and are
+not relicensed under this repository's MIT license.
+
+See [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the redistribution
+matrix, and
+[Sources/HighlightSwift/Resources/ThirdPartyLicenses](Sources/HighlightSwift/Resources/ThirdPartyLicenses/)
+for the license texts that ship with the package resources.
+
 ## License
 
-[MIT](LICENSE) — Copyright (c) 2026 Eden
+HighlightSwift's first-party Swift source, tests, examples, and repository
+project files are licensed under [MIT](LICENSE) — Copyright (c) 2026 Eden.
+
+Bundled third-party resources under
+[Sources/HighlightSwift/Resources](Sources/HighlightSwift/Resources/)
+keep their original licenses and notices. See
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).

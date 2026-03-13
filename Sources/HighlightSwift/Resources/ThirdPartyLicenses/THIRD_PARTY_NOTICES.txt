@@ -1,0 +1,79 @@
+HighlightSwift Third-Party Notices
+==================================
+
+This package includes first-party Swift source code under the repository's
+MIT license and vendored third-party assets under Resources/.
+
+The third-party assets are not relicensed under the repository MIT license.
+Their upstream notices are preserved in the original files, and the main
+license texts needed for redistribution are bundled in this directory.
+
+Bundled third-party components
+------------------------------
+
+1. highlight.js core, grammars, and project styles
+   Files:
+   - Resources/highlight.min.js
+   - Resources/languages/*.min.js
+   - Resources/styles/*.css
+   - Resources/styles/*.min.css
+   License:
+   - BSD-3-Clause, unless an individual file header states a different
+     upstream license.
+   License text:
+   - BSD-3-Clause-highlight.js.txt
+
+2. highlightjs/base16-highlightjs theme pack
+   Files:
+   - Resources/styles/base16/*.css
+   - Resources/styles/base16/*.min.css
+   License:
+   - Per-file headers retained as vendored, including author attribution and
+     the note "License: ~ MIT (or more permissive) [via base16-schemes-source]".
+   License text:
+   - MIT-base16-highlightjs.txt
+
+3. Nord highlight.js theme
+   Files:
+   - Resources/styles/nord.css
+   License:
+   - MIT
+   License text:
+   - MIT-Nord-highlightjs.txt
+
+4. Stack Overflow / Stacks themes
+   Files:
+   - Resources/styles/stackoverflow-dark.css
+   - Resources/styles/stackoverflow-dark.min.css
+   - Resources/styles/stackoverflow-light.css
+   - Resources/styles/stackoverflow-light.min.css
+   License:
+   - MIT
+   License text:
+   - MIT-StackExchange-Stacks.txt
+
+5. Night Owl theme
+   Files:
+   - Resources/styles/night-owl.css
+   License:
+   - MIT
+   Notes:
+   - The full MIT notice is already retained in the file header.
+
+6. CC BY-SA themes
+   Files:
+   - Resources/styles/kimbie-dark.css
+   - Resources/styles/kimbie-light.css
+   - Resources/styles/nnfx-dark.css
+   - Resources/styles/nnfx-dark.min.css
+   - Resources/styles/nnfx-light.css
+   - Resources/styles/nnfx-light.min.css
+   License:
+   - Creative Commons Attribution-ShareAlike 4.0, as indicated by the
+     retained upstream file headers.
+   License text:
+   - CC-BY-SA-4.0.txt
+
+Redistributors should preserve the vendored file headers and include the
+documents in this directory, or provide equivalent third-party notices in
+their product documentation or acknowledgements UI.
