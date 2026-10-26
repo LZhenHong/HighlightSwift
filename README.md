@@ -3,7 +3,7 @@
 A Swift syntax highlighting library powered by [highlight.js](https://highlightjs.org/). Produces native `NSAttributedString` output with **192 languages** and **257 themes** — no web views required.
 
 [![Swift 5.10+](https://img.shields.io/badge/Swift-5.10+-orange.svg)](https://swift.org)
-[![Platforms](https://img.shields.io/badge/Platforms-iOS%2015+%20|%20macOS%2012+%20|%20tvOS%2015+%20|%20watchOS%208+-blue.svg)](https://developer.apple.com)
+[![Platforms](https://img.shields.io/badge/Platforms-iOS%2026+%20|%20macOS%2026+%20|%20tvOS%2015+%20|%20watchOS%208+-blue.svg)](https://developer.apple.com)
 [![Code License: MIT](https://img.shields.io/badge/Code%20License-MIT-green.svg)](LICENSE)
 [![Bundled Assets: See Notices](https://img.shields.io/badge/Bundled%20Assets-See%20Notices-blue.svg)](THIRD_PARTY_NOTICES.md)
 
@@ -208,8 +208,8 @@ swift test --filter PerformanceBenchmarks
 
 | Platform | Minimum Version |
 |----------|----------------|
-| iOS      | 15.0           |
-| macOS    | 12.0           |
+| iOS      | 26.0           |
+| macOS    | 26.0           |
 | tvOS     | 15.0           |
 | watchOS  | 8.0            |
 | Swift    | 5.10           |

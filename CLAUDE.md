@@ -23,7 +23,7 @@ swift test --filter ThemeValidation
 
 ## Architecture
 
-HighlightSwift is a Swift wrapper around [highlight.js](https://highlightjs.org/) that produces `NSAttributedString` output. It supports 192 languages and 257 themes (81 top-level + 176 base16) across iOS 15+, macOS 12+, tvOS 15+, and watchOS 8+.
+HighlightSwift is a Swift wrapper around [highlight.js](https://highlightjs.org/) that produces `NSAttributedString` output. It supports 192 languages and 257 themes (81 top-level + 176 base16) across iOS 26+, macOS 26+, tvOS 15+, and watchOS 8+.
 
 ### Processing Pipeline
 
